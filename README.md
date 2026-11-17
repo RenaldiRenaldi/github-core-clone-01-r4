@@ -29,9 +29,9 @@ The demo performs REST create → real Git clone → branch → commit → push 
 
 | Read path | Handler latency | Sequential TCP latency | TCP requests/sec |
 |---|---:|---:|---:|
-| GET repository | 2.077 µs | 62.329 µs | 16,044 |
-| GET v2 refs advertisement | 0.796 µs | 71.635 µs | 13,960 |
-| Cached small-repo fetch/clone | 2.528 µs | 81.265 µs | 12,305 |
+| GET repository | 1.931 µs | 70.345 µs | 14,216 |
+| GET v2 refs advertisement | 0.764 µs | 61.066 µs | 16,376 |
+| Cached small-repo fetch/clone | 2.632 µs | 79.083 µs | 12,645 |
 
 Kit process-driver grading, three practice draws: **120/120 checks in every draw, scores 991 / 985 / 982, mean 986/1000**, all replay exports byte-identical. `perf_p50_us` mean: 241,814. The driver runs Node 24.22.1; the kit records production Node 26.13.1, so these are local results. No transcript bundle was supplied to these runs: authorship/eligibility remains the parent's bundle check, not a passed claim here.
 
