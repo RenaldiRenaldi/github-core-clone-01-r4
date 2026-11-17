@@ -1,0 +1,21 @@
+# Kit tooling stays local; the entry ships only its authored source and binary.
+/cli/
+/sdk/
+/harness/
+/gateway/
+/practice/
+/program/
+/rules/
+/starter/
+/RULES.txt
+/competition.yaml
+/kit.json
+/git.ts
+node_modules/
+out/
+*.log
+.DS_Store
+
+# Benchmark and coverage scratch files are reproducible, not release inputs.
+*.test
+coverage.out

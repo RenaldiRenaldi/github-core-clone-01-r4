@@ -1,0 +1,1 @@
+{"name":"go-forge-r4","version":"4.0.0","type":"module","description":"Static Go smart-HTTP forge with quarantined pushes and cached reads","private":true,"license":"MIT","scripts":{"start":"node main.ts","test":"go test ./...","demo":"./demo.sh"}}
